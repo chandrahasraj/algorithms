@@ -12,7 +12,7 @@ public class LongestSubstringWithUnique {
 
 	private static int longest_substring_with_unique_char(String s) {
 		int start=0,max=0;
-		HashMap<Character,Integer> list=new HashMap<>();
+		HashMap<Character,Integer> list=new HashMap<Character, Integer>();
 		
 		for(int i=0;i<s.length();i++){
 			char c=s.charAt(i);
